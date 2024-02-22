@@ -1,0 +1,18 @@
+import java.util.*;
+class Value
+{
+public static void main (String arg[])
+{
+Scanner sc=new Scanner(System.in);
+double a,b,c;
+double x;
+System.out.println("Enter values:");
+a=sc.nextDouble();
+b=sc.nextDouble();
+c=sc.nextDouble();
+double q=4*a*a;
+x=(a+b+c)/q;
+
+System.out.println("output="+x);
+}
+}
